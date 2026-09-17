@@ -86,9 +86,8 @@ def run_and_show_question(
 with st.sidebar:
     st.subheader("Model")
     st.write(clone.provider.name)
-    st.caption(f"Key source: {where_from('GEMINI_API_KEY')}")
     st.caption(
-        ":red[Free tier allows about 10 requests per minute. "
+        ":red0[`Gemini`Free tier allows about 10 requests per minute. "
         "Give each task a moment before running the next one.]"
     )
 
