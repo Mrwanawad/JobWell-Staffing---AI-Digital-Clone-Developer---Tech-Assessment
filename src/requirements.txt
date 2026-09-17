@@ -1,0 +1,10 @@
+# Direct dependencies only. Pip resolves the rest, which avoids fighting the
+# platform's base image.
+#
+# This file sits next to src/app.py because Streamlit Community Cloud looks for
+# the dependency file in the repository root or beside the entrypoint. Keep it
+# in step with the dependencies block in pyproject.toml.
+streamlit>=1.64
+google-genai>=2.24
+python-dotenv>=1.2
+PyYAML>=6.0
