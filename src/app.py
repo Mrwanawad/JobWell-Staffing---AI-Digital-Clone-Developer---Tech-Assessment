@@ -86,9 +86,10 @@ def run_and_show_question(
 with st.sidebar:
     st.subheader("Model")
     st.write(clone.provider.name)
-    st.caption(
-        ":red0[NOTE: `Gemini`Free tier allows about 10 requests per minute. "
-        "Give each task a moment before running the next one.]"
+    st.warning(
+        "**NOTE:** `Gemini` free tier allows about 10 requests per minute. "
+        "Give each task a moment before running the next one.",
+        icon="⚠️",
     )
 
     st.subheader("Not decided yet")
