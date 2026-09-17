@@ -4,7 +4,6 @@ A text assistant that writes as Dr. Mark, a dentist and implant educator, and
 refuses to invent anything he has not confirmed.
 
 Built for the JobWell Staffing AI Digital Clone Developer assignment.
-Kindly access the live demo from the following link: https://mrwan-awad-ai-clone-dev.streamlit.app/
 
 ## The point
 
