@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Real secrets. The .example template is committed instead.
+.streamlit/secrets.toml

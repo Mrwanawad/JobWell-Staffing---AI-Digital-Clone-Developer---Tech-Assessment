@@ -1,0 +1,5 @@
+[theme]
+base                  = "light"
+primaryColor          = "#1B2A4A"
+font                  = "times"
+baseFontSize          = 20
