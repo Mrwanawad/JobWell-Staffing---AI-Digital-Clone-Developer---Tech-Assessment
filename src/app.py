@@ -87,7 +87,7 @@ with st.sidebar:
     st.subheader("Model")
     st.write(clone.provider.name)
     st.caption(
-        ":red0[`Gemini`Free tier allows about 10 requests per minute. "
+        ":red0[NOTE: `Gemini`Free tier allows about 10 requests per minute. "
         "Give each task a moment before running the next one.]"
     )
 
