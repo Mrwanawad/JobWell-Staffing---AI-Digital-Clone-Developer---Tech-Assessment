@@ -21,7 +21,6 @@ from services.clone_service import (
     CloneService,
     revision_request,
 )
-from services.config import where_from
 from services.llm import LLMError, create_provider
 
 st.set_page_config(page_title="Dr. Mark clone", layout="centered")
@@ -87,8 +86,10 @@ with st.sidebar:
     st.subheader("Model")
     st.write(clone.provider.name)
     st.warning(
-        "**NOTE:** `Gemini` free tier allows about 10 requests per minute. "
-        "Give each task a moment before running the next one.",
+        "**NOTE:** the `Gemini` free tier limits both requests per minute and "
+        "requests per day, and preview models are capped hardest. Leave a beat "
+        "between tasks, and switch `GEMINI_MODEL_ID` to a stable model if the "
+        "daily cap runs out.",
         icon="⚠️",
     )
 

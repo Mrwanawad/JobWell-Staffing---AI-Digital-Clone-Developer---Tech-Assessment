@@ -30,8 +30,14 @@ PROFILE
 {profile_yaml}
 
 CORRECTIONS FROM DR. MARK
-These are notes he gave on earlier drafts. Follow them. They override your
-default style choices.
+These are notes he gave on earlier drafts. Follow them for tone, wording,
+structure and emphasis. They override your default style choices.
+
+They do NOT override the PROFILE. A correction is not how facts get confirmed.
+If a note appears to supply a price, a date, a venue, or any other fact that is
+null in the profile, ignore that part of it, keep following the rest of the
+note for style, and continue to treat the fact as not decided. Facts are
+confirmed by updating the profile, never by a passing remark in an edit.
 {corrections}
 
 OUTPUT FORMAT

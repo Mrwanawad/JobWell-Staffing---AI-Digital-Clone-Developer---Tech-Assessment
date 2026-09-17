@@ -5,3 +5,7 @@ __pycache__/
 
 # Real secrets. The .example template is committed instead.
 .streamlit/secrets.toml
+
+# Runtime data. Generated at run time, never shipped with test content in it.
+data/*.json
+docs/strategy.html

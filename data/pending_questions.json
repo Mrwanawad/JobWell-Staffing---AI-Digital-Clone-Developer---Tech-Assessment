@@ -1,34 +1,26 @@
 [
   {
-    "id": "eb72dde5",
+    "id": "fb3a2df9",
     "field": "dates",
     "question": "What are the dates for the course?",
     "first_asked_for": "Write a short announcement for the implant course, for dentists. Keep it educational and in Dr. Mark's voice.",
     "status": "open",
-    "created_at": "2026-09-17T07:08:49+00:00"
+    "created_at": "2026-09-17T11:01:27+00:00"
   },
   {
-    "id": "a783f7ed",
+    "id": "4e6f2366",
     "field": "venue",
     "question": "Where is the course being held?",
     "first_asked_for": "Write a short announcement for the implant course, for dentists. Keep it educational and in Dr. Mark's voice.",
     "status": "open",
-    "created_at": "2026-09-17T07:08:49+00:00"
+    "created_at": "2026-09-17T11:01:27+00:00"
   },
   {
-    "id": "06fee724",
+    "id": "8ff87674",
     "field": "price",
     "question": "What is the price for the course?",
     "first_asked_for": "Write a short announcement for the implant course, for dentists. Keep it educational and in Dr. Mark's voice.",
     "status": "open",
-    "created_at": "2026-09-17T07:08:49+00:00"
-  },
-  {
-    "id": "d4f7839f",
-    "field": "content_details",
-    "question": "Please confirm: content_details",
-    "first_asked_for": "Exact held place for the course ? and please provide material\\content details about the course",
-    "status": "open",
-    "created_at": "2026-09-17T07:28:52+00:00"
+    "created_at": "2026-09-17T11:01:27+00:00"
   }
 ]

@@ -79,10 +79,11 @@ def main() -> int:
     try:
         return run()
     except LLMError as exc:
-        # A missing key or a bad model id is a setup problem, not a crash.
-        # Print one clear line instead of a stack trace.
+        # A missing key, a bad model id or a rate limit is a setup problem,
+        # not a crash. Print one clear line instead of a stack trace.
         print(f"\nCould not reach the model: {exc}")
-        print("Check GEMINI_API_KEY and GEMINI_MODEL_ID in your .env file.")
+        if "Rate limit" not in str(exc):
+            print("Check GEMINI_API_KEY and GEMINI_MODEL_ID in your .env file.")
         return 1
 
 
